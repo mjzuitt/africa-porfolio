@@ -2,69 +2,81 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Web Portfolio</title>
 
-		<!-- Start Bootstrap-CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<!-- End Bootstrap-CSS -->
+		<!-- Responsive Meta Tag -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Start External CSS -->
+		<!-- External CSS -->
 		<link rel="stylesheet" type="text/css" href="./index.css">
 
-		<!-- Start Google fonts -->
+		<!-- Bootstrap Link -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+
+		<!-- Google fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-		<!-- End Google fonts -->
 
+		<title>Web Portfolio</title>
 	</head>
 	<body>
-		<!-- Start navbar -->
-		<nav id="nav-bar" class="bg-dark font-weight-bold fixed-top">
-			<a href="#home-page" class="pl-3">HOME</a>
-			<div class="d-flex float-right px-3">
-				<a href="#about-me" class="px-3">About Me</a>
-				<a href="#project-me" class="px-3">Project</a>
-				<a href="#tools-me" class="px-3">Tools</a>
-				<a href="#contact-me" class="px-3">Contact</a>
-			</div>
+
+		<!-- navbar start -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+		  <a class="navbar-brand" href="#home-page">Home</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#about-me">About Me<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#project-me">Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#tools-me">Tools</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#contact-me">Contacts</a>
+		      </li>
+		    </ul>
+		  </div>
 		</nav>
-		<!-- End navbar -->
+		<!-- navbar end -->
 
-		<!-- Start home page -->
-		<div id="home-page" class = "contatiner-fluid bg-primary border border-white bg-dark m-4">
+		
+					
+		<!-- Profile Section Start -->
+		<div class="container-fluid bg-dark text-light min-vh-100 p-3 p-md-5 text-center">
+			
+			<img id="home-page" class="mt-5 mt-md-0 rounded-circle" src="./images/prof-pic.jpg" width="250">
 
-			<div class = "m-5 pt-3 d-flex flex-column justify-content-right align-items-center border border-white bg-primary">
-				<img src = "./images/prof-pic.jpg" class = "img-fluid rounded-circle w-25"/>
-				<h1>WELCOME!</h1>
-				<h3>Hi! My name is MJ, I am a Full-Stack Web Developer</h3>
-				<p>"Individually we are one drop, but together we are an ocean." — Ryunosuke Satoro</p>
-				<a href="#email-me" class="btn btn-secondary btn-lg my-3">Message me for inquiry</a>
+			<!-- Start Home page -->
+			<h1>WELCOME!</h1>
+			<h3>Hi! My name is MJ, I am a Full-Stack Web Developer.</h3>
+			<h6>"Individually we are one drop, but together we are an ocean." — Ryunosuke Satoro</h6>
+			<a href="mailto:africa.markjoseph08@gmail.com" class="btn btn-secondary btn-lg my-3">Email me for inquiry</a>
+			<!-- End Home page -->
+
+			<!-- Start About Me -->
+			<div class="row mt-5">
+				<div class="offset-md-2 col-md-8">
+					<h1 id="about-me">About Me</h1>
+					<p>My name Mark Joseph Africa also known as "MJ" a Full-Stack Web Developer and I am motivated by the mission to help Clients find fulfillments on their Web page. Prior to this role, I started my Job as a Sales Associate, where I acquired my communication skills. With this role, I've honed my analytical thinking and collaboration skills, and I love working with a team.</p>
+				</div>
 			</div>
-
+			<!-- End About Me -->
+        
+        <!-- Profile Section End --> 
 		</div>
-		<!-- End home page -->
 
-		<!-- Start About Me -->
-		<div id="about-me" class = "contatiner-fluid bg-primary m-4 border border-white bg-dark">
-
-			<div class = "m-5 pt-3 d-flex flex-column border border-white bg-primary">
-				<h1 class="tex-left px-2">ABOUT ME:</h1>
-				<p class="px-2">My name Mark Joseph Africa also known as "MJ" a Full-Stack Web Developer and I am motivated by the mission to help Clients find fulfillments on their Web page. Prior to this role, I started my Job as a Sales Associate, where I acquired my communication skills. With this role, I've honed my analytical thinking and collaboration skills, and I love working with a team.</p>
-				<p>Prior to this role, I started my Job as a Sales Associate, where I acquired my communication skills. With this role, I've honed my analytical thinking and collaboration skills, and I love working with a team.</p>
-			</div>
-
-		</div>
-		<!-- End About Me -->
-
-		<!-- Start Projects -->
-		<div id="project-me" class = "contatiner-fluid bg-primary m-4 border border-white bg-dark">
-
-			<div class = "m-5 pt-3 d-flex flex-column border border-white bg-primary">
-				<h1 class="tex-left px-2">PROJECTS:</h1>
-				
-				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<!-- Start Project -->
+		<div class="container-fluid bg-dark text-light min-vh-100 p-3 p-md-5 text-center">
+			
+			<h1 id="project-me">Projects</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -93,160 +105,123 @@
 			    				  <p class="mb-5">Bootstrap is a free front-end framework for faster and easier web development. Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.</p>
 						    </div>
 					  </div>
-					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Previous</span>
-					  </a>
-					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Next</span>
-					  </a>
+					 
 				</div>
-			</div>
-
+          
 		</div>
 		<!-- End Project -->
 
+		
+
 		<!-- Start Tools -->
-		<div id="tools-me" class = "contatiner-fluid bg-primary m-4 border border-white bg-dark">
+		<div class="bg-secondary text-light p-5 text-center">
 
-			<div class = "m-5 pt-3 d-flex flex-column border border-white bg-primary">
-				<h1 class="tex-left px-2">TOOLS:</h1>
-				<div class="bg-primary text-center">
+			<h2 id="tools-me">TOOLS</h2>
 
-		            <div class="d-lg-inline-block w-25 bg-dark text-light rounded p-4 m-4">
-		                <img src="./images/html-icon.jpg" class="img-fluid rounded-circle w-50">
-		                <a href="https://www.w3schools.com/html/" target="_blank"><h3 class="mt-3">HTML</h3></a>
-		            </div>
-
-		            <div class="d-lg-inline-block w-25 bg-dark text-light rounded p-4 m-4">
-		                <img src="./images/css-icon.jpg" class="img-fluid rounded-circle w-50">
-		                <a href="https://www.w3schools.com/css/" target="_blank"><h3 class="mt-3">CSS</h3></a>
-		            </div>
-
-		            <div class="d-lg-inline-block w-25 bg-dark text-light rounded p-4 m-4">
-		                <img src="./images/bootstrap-icon.jpg" class="img-fluid rounded-circle w-50">
-		                <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target="_blank"><h3 class="mt-3">Bootstrap</h3></a>
-		            </div>
-
-        		</div>
-
-        		<div class="bg-primary text-center">
-
-		            <div class="d-lg-inline-block w-25 bg-dark text-light rounded p-4 m-4">
-		                <img src="./images/js-icon.jpg" class="img-fluid rounded-circle w-50">
-		                <a href="https://www.javascript.com/" target="_blank"><h3 class="mt-3">JavaScript</h3></a>
-		            </div>
-
-		            <div class="d-lg-inline-block w-25 bg-dark text-light rounded p-4 m-4">
-		                <img src="./images/sublime-icon.jpg" class="img-fluid rounded-circle w-50">
-		                <a href="https://www.sublimetext.com/" target="_blank"><h3 class="mt-3">Sublime Text</h3></a>
-		            </div>
-
-		            <div class="d-lg-inline-block w-25 bg-dark text-light rounded p-4 m-4">
-		                <img src="./images/gitlab-icon.jpg" class="img-fluid rounded-circle w-50">
-		                <a href="https://gitlab.com/" target="_blank"><h3 class="mt-3">GitLab</h3></a>
-		            </div>
-
-        		</div>
-
-				
-				
+			<div class="d-lg-flex justify-content-left align-items-left m-md-5">
+				<div class="bg-dark d-lg-flex flex-lg-row col-xl-12 mb-5 mb-xl-0">												
+						<a href="https://www.w3schools.com/html/" target="_blank"><img src="./images/html-icon.jpg" class="rounded-circle p-lg-2" alt="..."></a>
+						<a href="https://www.w3schools.com/css/" target="_blank"><img src="./images/css-icon.jpg" class="rounded-circle p-lg-2" alt="..."></a>
+						<a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target="_blank"><img src="./images/bootstrap-icon.jpg" class="rounded-circle p-lg-2" alt="..."></a>
+						<a href="https://www.javascript.com/" target="_blank"><img src="./images/js-icon.jpg" class="rounded-circle p-lg-2" alt="..."></a>
+						<a href="https://www.sublimetext.com/" target="_blank"><img src="./images/sublime-icon.jpg" class="rounded-circle p-lg-2" alt="..."></a>
+						<a href="https://gitlab.com/" target="_blank"><img src="./images/gitlab-icon.jpg" class="rounded-circle p-lg-2" alt="..."></a>		
+				</div>
+	
 			</div>
 
 		</div>
 		<!-- End Tools -->
 
-		<!-- Start Contacts -->
-		<div id="contact-me" class = "contatiner-fluid bg-primary m-4 border border-white bg-dark">
 
-			<div class = "m-5 pt-3 d-flex flex-column border border-white bg-primary">
-				<h1 class="text-left px-2">Contacts:</h1>
+		<!-- Start contacts -->
+        <div class="bg-dark min-vh-100 p-5">
+        	  	
+        	<h2 id="contact-me" class="text-light col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 rounded">Contact Us</h2>
+            <div class="row mt-3">
+                <form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-primary p-3 rounded">
+                    <div class="form-group">
+                        <label class="text-light" for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
 
-				<div class="d-flex flex-row bg-primary text-left">
+                    <div class="form-group">
+                        <label class="text-light" for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
 
-		            <div class="w-50 bg-dark text-light rounded p-3 m-4">
-		               <h3>Visit Us</h3>
-						<!-- Google maps -->
-						<div id="map-container-google-2" class="z-depth-1-half map-container px-xl-2" style="height: 500px">
-		  				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6915774719178!2d121.07900801456272!3d14.559621689828555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7d5d977b941%3A0x5e4945b7d1931280!2sPasig%20City%20Hall!5e0!3m2!1sen!2sph!4v1679562799135!5m2!1sen!2sph" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-						</div>
-						<!-- Google maps -->
-		            </div>
+                    <div class="form-group">
+                        <label class="text-light" for="contact">Contact Number</label>
+                        <input type="text" class="form-control" id="contact" placeholder="+63 900 000 0000">
+                    </div>
 
-		            <div class="w-50 bg-dark text-light rounded p-3 m-4">
-		            	<h3 id="email-me" class="text-light">Email Me</h3>
-		            	<!-- Start forms -->
-		           		<div class="row mt-3">
-		           		    <form class="col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 bg-primary p-3 rounded" action="mailto:mjafrica90@gmail.com">
-		           		        <div>
-		           		            <label class="text-light" for="name">Name</label>
-		           		            <input type="text" name="name" id="name" required>
-		           		        </div>
+                    <div class="form-group">
+                        <label class="text-light" for="concern">Concern</label>
+                        <select class="form-control" id="concern">
+                            <option>Quotation</option>
+                            <option>Appointment</option>
+                            <option>Follow-Up</option>
+                        </select>
+                    </div>
 
-		           		        <div>
-		           		            <label class="text-light" for="email">Email address</label>
-		           		            <input type="text" name="email" id="email" required>
-		           		        </div>
+                    <div class="form-group">
+                        <label class="text-light" for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="7"></textarea>
+                    </div>
 
-		           		        <div>
-		           		            <label class="text-light" for="contact">Contact Number</label>
-		           		            <input type="text" name="contact" id="contact" required>
-		           		        </div>
+                    <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send Email</button>
 
-		           		        <div>
-		           		            <label for="concern-message">Concern:</label>
-		           
-		           		            <select name="concern-message" id="concern-message">
-		           		            	<option value="quotation">Quotation</option>
-		           		            	<option value="appointment">Appointment</option>
-		           		            	<option value="follow-up">Follow-up</option>
-		           		            </select>
-		           		        </div>
+                    <!-- Modal Start -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
 
-		           		        <div>
-		           		            <label for="message">Message</label>
-		           		      
-		           		            <textarea name="message" id="message" rows="5" required></textarea>
-		           		        </div>
+                                <div class="modal-body">Message Successfully Sent</div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal End -->
+                </form>
+            </div>
 
-		           		        <div>
-		           		        	<button type="inquiry">Send inquiry</button>
-		           		        	<button type="reset">Reset</button>
-		           		        </div>
-
-		  
-
-		           		      
-		           		    </form>
-		           		</div>
-		            </div>
-		            <!-- End forms -->
-		        </div>   
-
-				<div class="bg-primary text-center">
-
-					<div class="d-lg-inline-block bg-dark text-light rounded p-xl-3 m-xl-3">
-						<i class="bi bi-facebook"><a href="https://facebook.com/" target="_blank"></i>
-						<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-						  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-						</svg>
-						<i class="bi bi-linkedin"><a href="https://www.linkedin.com/" target="_blank"></i>
-						<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-						  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-						</svg>
-					</div>	
+            <h2 class="text-light col-12 offset-md-2 col-md-8 offset-xl-4 col-xl-4 p-3 rounded">Visit Us</h2>
+            <div class="d-lg-flex justify-content-center align-items-center">
+				<!-- Google maps -->
+				<div id="map-container-google-2" class="z-depth-1-half map-container px-xl-2" style="height: 500px">
+  				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6915774719178!2d121.07900801456272!3d14.559621689828555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7d5d977b941%3A0x5e4945b7d1931280!2sPasig%20City%20Hall!5e0!3m2!1sen!2sph!4v1679562799135!5m2!1sen!2sph" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
+				<!-- Google maps -->
+				
+            </div>
 
-			</div>
-		</div>
-		<!-- End Contacts -->
+            <div class="d-lg-flex justify-content-center align-items-center">
 
+				<i class="bi bi-facebook"><a href="https://facebook.com/" target="_blank"></i>
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+				  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+				</svg>
+				<i class="bi bi-linkedin"><a href="https://www.linkedin.com/" target="_blank"></i>
+				<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+				  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+				</svg>
+				
+            </div>
+        </div>
 
-		<!-- Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- End Contact -->
+
+		<!-- Bootstrap Script -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
 	</body>
 </html>
